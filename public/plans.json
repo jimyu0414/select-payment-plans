@@ -1,0 +1,38 @@
+[
+    {
+        "interval": "weekly",
+        "paymentCount": 6
+    },
+    {
+        "interval": "weekly",
+        "paymentCount": 8
+    },
+    {
+        "interval": "weekly",
+        "paymentCount": 12
+    },
+    {
+        "interval": "weekly",
+        "paymentCount": 24
+    },
+    {
+        "interval": "fornightly",
+        "paymentCount": 4
+    },
+    {
+        "interval": "fornightly",
+        "paymentCount": 6
+    },
+    {
+        "interval": "fornightly",
+        "paymentCount": 3
+    },
+    {
+        "interval": "monthly",
+        "paymentCount": 2
+    },
+    {
+        "interval": "monthly",
+        "paymentCount": 3
+    }
+]

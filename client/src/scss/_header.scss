@@ -1,0 +1,27 @@
+.header{
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.125rem 1rem;
+
+    @include breakpoint(m){
+        padding: 1.125rem 3rem;
+    }
+
+    &__logo{
+        width: 9rem;;
+    }
+    &__total-price{
+        display: flex;
+        align-items: center;
+        svg{
+            width: 1.5rem;
+            height: auto;
+            margin-right: .75rem;
+        }
+        span{
+            font-size: 1.125rem;
+            font-weight: 600;
+        }
+    }
+}

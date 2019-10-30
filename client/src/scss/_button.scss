@@ -1,0 +1,35 @@
+.button{
+    font-size: 1.125rem;
+    font-weight: 500;
+    cursor: pointer;
+    &--back{
+        color: #555;
+    
+        &:hover{
+            text-decoration: underline;
+        }
+        &::before{
+            content: '';
+            border-width: 1rem;
+            border-top: 2px solid #555;
+            border-left: 2px solid #555;
+            transform: rotate(-54deg) skew(-20deg);
+            overflow: hidden;
+            display: inline-block;
+            font-size: 1px;
+            width: .5rem;
+            height: .5rem;
+            margin-right: .25rem;
+        }
+    }
+
+    &--submit{
+        background: #3d73ff;
+        border: none;
+        color: #fff;
+        padding: .75rem 1rem;
+        align-self: flex-end;
+        font-weight: 400;
+        font-size: 1rem;
+    }
+}
