@@ -22,12 +22,6 @@ describe('App',()=>{
     assertions started below
   */
 
-  it('should have a plan panel',()=>{
-    expect(
-      wrapper.containMatchingElement(
-        <PlanCard />
-      )
-    )
-  });
+
 
 })

@@ -1,9 +1,13 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import PlanCard from '../Components/PlanCard';
-import {shallow} from 'enzyme';
+import Adapter from 'enzyme-adapter-react-15';
+import {shallow, configure} from 'enzyme';
 
 describe('PlanCard',()=>{
+
+    //Enzyme.configure({ adapter: new Adapter() })
+    configure({adapter: new Adapter()});
+
     let wrapper;
     beforeEach(()=>{
       wrapper = shallow(
@@ -17,8 +21,8 @@ describe('PlanCard',()=>{
   
     it('should have a heading',()=>{
       expect(
-        wrapper.containMatchingElement(
-          <h1>heading</h1>
+        wrapper.containsMatchingElement(
+            <h1> Customise your plan </h1>
         )
       )
     });
