@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.72694fea.chunk.css",
-    "main.js": "/static/js/main.045c4b54.chunk.js",
-    "main.js.map": "/static/js/main.045c4b54.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.8bf4757b.js",
-    "runtime-main.js.map": "/static/js/runtime-main.8bf4757b.js.map",
-    "static/js/2.5a2d2e46.chunk.js": "/static/js/2.5a2d2e46.chunk.js",
-    "static/js/2.5a2d2e46.chunk.js.map": "/static/js/2.5a2d2e46.chunk.js.map",
+    "main.css": "/static/css/main.12868546.chunk.css",
+    "main.js": "/static/js/main.3bdd09c7.chunk.js",
+    "main.js.map": "/static/js/main.3bdd09c7.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.17a50437.js",
+    "runtime-main.js.map": "/static/js/runtime-main.17a50437.js.map",
+    "static/js/2.84a84b06.chunk.js": "/static/js/2.84a84b06.chunk.js",
+    "static/js/2.84a84b06.chunk.js.map": "/static/js/2.84a84b06.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.04b1eee2b64add7412ab1c882e5c06c2.js": "/precache-manifest.04b1eee2b64add7412ab1c882e5c06c2.js",
+    "precache-manifest.13a1a0c5bc6b4a316dae5905b775316e.js": "/precache-manifest.13a1a0c5bc6b4a316dae5905b775316e.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.72694fea.chunk.css.map": "/static/css/main.72694fea.chunk.css.map",
-    "static/media/App.scss": "/static/media/oval.b5eaea46.svg"
+    "static/css/main.12868546.chunk.css.map": "/static/css/main.12868546.chunk.css.map",
+    "static/media/openpay.0d7f1c4d.svg": "/static/media/openpay.0d7f1c4d.svg",
+    "static/media/shopping-cart.2f79694d.svg": "/static/media/shopping-cart.2f79694d.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.8bf4757b.js",
-    "static/js/2.5a2d2e46.chunk.js",
-    "static/css/main.72694fea.chunk.css",
-    "static/js/main.045c4b54.chunk.js"
+    "static/js/runtime-main.17a50437.js",
+    "static/js/2.84a84b06.chunk.js",
+    "static/css/main.12868546.chunk.css",
+    "static/js/main.3bdd09c7.chunk.js"
   ]
 }
