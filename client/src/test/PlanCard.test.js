@@ -1,11 +1,10 @@
 import React from 'react';
 import PlanCard from '../Components/PlanCard';
-import Adapter from 'enzyme-adapter-react-15';
+import Adapter from 'enzyme-adapter-react-16';
 import {shallow, configure} from 'enzyme';
 
 describe('PlanCard',()=>{
 
-    //Enzyme.configure({ adapter: new Adapter() })
     configure({adapter: new Adapter()});
 
     let wrapper;
